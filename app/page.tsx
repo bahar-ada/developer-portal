@@ -23,9 +23,9 @@ export default function Page() {
   return (
     <main className="flex h-full flex-col p-6">
       {/* <MainPageCarusel caruselImages={[photo5.src, photo12.src, photo4.src, photo15.src]} /> */}
-      <div className='my-4 flex justify-center bg-cyan-800 rounded p-5'>
+      <div className='my-4 flex justify-center bg-sky-800 rounded p-5'>
 
-        <Image alt={"firstImage"} height={460} width={480} src={photo9.src} className='rounded'/>
+        <Image alt={"firstImage"} height={460} width={620} src={photo9.src} className='rounded'/>
       </div>
       <div className="my-4 flex justify-center grow flex-col gap-4 md:flex-row">
         <div className=" flex flex-col justify-center justify-items-center items-center gap-4 rounded-lg bg-stone-200 px-6 py-10 md:w-2/5 md:px-20">
