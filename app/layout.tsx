@@ -3,8 +3,9 @@ import localFont from "next/font/local"
 import Head from 'next/head';
 import Footer from '@/components/footer/Footer'
 import Header from '@/components/header/Header'
+import { NextFont } from 'next/dist/compiled/@next/font';
 
-export const myFont1 = localFont({ src: "../public/fonts/IRANSansWeb.woff" });
+ const myFont1: NextFont = localFont({ src: "../public/fonts/IRANSansWeb.woff" });
 
 export default function RootLayout({
   children,

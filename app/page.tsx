@@ -23,7 +23,7 @@ export default function Page() {
   return (
     <main className="flex h-full flex-col p-6">
       {/* <MainPageCarusel caruselImages={[photo5.src, photo12.src, photo4.src, photo15.src]} /> */}
-      <div className='my-4 flex justify-center bg-sky-800 rounded p-5'>
+      <div className='my-4 flex justify-center bg-yellow-950 rounded p-5'>
 
         <Image alt={"firstImage"} height={460} width={620} src={photo9.src} className='rounded'/>
       </div>

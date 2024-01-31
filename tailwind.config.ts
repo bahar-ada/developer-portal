@@ -46,7 +46,8 @@ const config: Config = {
         },
         yellow:{
           200:'#e5ceaf', 
-          400:'#EEE7DA'
+          400:'#EEE7DA',
+          950:'#30261b'
         },
         nomad:{
           300:'#b3b1a3'
